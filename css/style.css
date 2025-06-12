@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    font-family: "consolas", monospace;
+}
+
+
+.main-container{
+    max-width: 940px;
+    min-width: 200px;
+    margin: 0px auto;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.clickeable {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/*colores generales para categorias Uwu*/
+.color1 {
+    background-color: #e7b0a3;
+}
+.color2 {
+    background-color: #f2dd86;
+}
+.color3 {
+    background-color: #9feabb;
+}
+.color4 {
+    background-color: #96e3df;
+}
+.color5 {
+    background-color: #a7bdf1;
+}
+.color6 {
+    background-color: #c9aff2;
+}

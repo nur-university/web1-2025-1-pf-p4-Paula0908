@@ -1,0 +1,13 @@
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #424242;
+    color: #ffffff71;
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 20px;
+
+}
+footer p{
+    max-width: 940px;
+}
