@@ -1,0 +1,33 @@
+.chat-header {
+    background: #f59e42;
+    color: #fff;
+    padding: 12px;
+    text-align: center;
+    font-size: 16px;
+}
+.message.user {
+    background: #e5e7eb;
+    color: #333;
+    align-self: flex-end;
+}
+.message.other {
+    background: #f59e42;
+    color: #fff;
+    align-self: flex-start;
+}
+.chat-input button {
+    background: #f59e42;
+}
+.chat-input button:hover {
+    background: #e07c1f;
+}
+.chat-side-title {
+    font-weight: bold;
+    color: #f59e42;
+    margin-bottom: 12px;
+    font-size: 17px;
+}
+.chat-side-item:hover,
+.chat-side-item.active {
+    background: #ffe6c7;
+}

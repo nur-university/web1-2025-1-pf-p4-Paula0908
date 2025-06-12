@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat - Articulos de mi interes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/mensajes/mensajes.css">
+    <link rel="stylesheet" href="css/mensajes/chat-como-comprador.css">
+</head>
+<body>
+    <header class="header-container">
+        <div class="header-items">
+            <a href="#" class="clickeable">
+                <div class="logo-container">
+                    <img class="logo" src="Img/laptop-online-shop-svgrepo-com.svg" alt="Logo">
+                    <span class="logo-text">MarketPlace</span>
+                </div>
+            </a>
+        </div>
+    </header>
+    <main class="main-container">
+        <a href="index.html" class="regresar clickeable">← Volver a conversaciones</a>
+        <div class="chat-page-layout">
+            <aside class="chat-side-menu">
+                <div class="chat-side-title">Otros artículos</div>
+                <div class="chat-side-list">
+                    <div class="chat-side-item active"><i class="fa-solid fa-box"></i> Laptop HP Pavilion</div>
+                    <div class="chat-side-item"><i class="fa-solid fa-box"></i> Celular Samsung A52</div> 
+                </div>
+            </aside>
+            <div class="chat-container">
+                <div class="chat-header">
+                    Chat con Vendedor sobre "Laptop HP Pavilion"
+                </div>
+                <div class="chat-messages" id="chatMessages">
+                    <div class="message user">¡Hola! ¿Sigue disponible?</div>
+                    <div class="message other">¡Hola! Sí, sigue disponible.</div>
+                    <div class="message user">¿Podrías enviarme más fotos?</div>
+                    <div class="message other">Claro, te las envío por aquí.</div>
+                </div>
+                <form class="chat-input">
+                    <input type="text" id="mensajeInput" placeholder="Escribe un mensaje..." autocomplete="off">
+                    <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            Ab officiis enim iusto laborum totam praesentium assumenda, 
+            tempora eius harum.</p>
+    </footer>
+</body>
+</html>
+

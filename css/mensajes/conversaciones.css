@@ -1,0 +1,104 @@
+.conversaciones-main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 100vw;
+    margin: 20px auto;
+    padding: 0 8px;
+}
+.conversaciones-col {
+    background: #f3f4f6;
+    border-radius: 10px;
+    padding: 16px;
+    flex: 1;
+    min-width: 0;
+    box-shadow: 0 2px 8px #0001;
+}
+.conversaciones-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    color: #4f46e5;
+}
+.conversaciones-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.conversacion-item {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #aaa;
+    margin: 5px 0;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px #0001;
+}
+.conversacion-item img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 4px;
+    background: #e5e7eb;
+}
+.conversacion-item .titulo {
+    font-weight: 500;
+    color: #333;
+}
+.usuarios-lista-articulo {
+    display: none;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 8px;
+    margin-left: 54px;
+}
+.usuarios-lista-articulo.visible {
+    display: flex;
+}
+.usuario-item {
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    margin: 3px 0;
+    background: #e5e7eb;
+    border-radius: 6px;
+    color: #333;
+    font-size: 15px;
+    width: fit-content;
+}
+.conversaciones-lista a {
+    text-decoration: none;
+    color: inherit;
+}
+/*para hacer el menuu desplegable de los articulos Uwu*/
+
+input[name="toggle-articulo"] {
+    display: none;
+}
+
+input[name="toggle-articulo"]:checked + label + .usuarios-lista-articulo {
+    display: block;
+}
+@media (min-width: 768px) {
+    .conversaciones-main {
+        flex-direction: row;
+        gap: 24px;
+        max-width: 90vw;
+        margin: 30px auto;
+        padding: 0 16px;
+    }
+    .conversaciones-col {
+        padding: 20px;
+    }
+}
+
+@media (min-width: 940px) {
+    .conversaciones-main {
+        max-width: 940px;
+        gap: 30px;
+        padding: 0;
+    }
+}
